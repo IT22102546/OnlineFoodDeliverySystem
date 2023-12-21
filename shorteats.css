@@ -1,0 +1,359 @@
+/* CSS Document */
+
+body{
+	background-color:;
+}
+
+#mai{
+	width:1325px;
+	height:auto;
+	background-color:white;
+	margin:auto;
+	border-radius: 10px;
+	padding:0px;
+}
+#logo{
+	width:150px;
+	height:150px;
+	float:left;
+	background-color:gray;
+}
+#mainh{
+	width:1175px;
+	height:150px;
+	float:left;
+	background-color:#FFF;
+	margin:auto;
+	margin-bottom:15px;
+	border-radius: 10px;
+}
+
+
+.btn1{
+	border-radius:10px;
+	text-align:center;
+	color:black;
+	background-color:#32a852;
+	border-style:none;
+	width:70px;
+	height:30px;
+	margin:auto;
+	cursor:pointer;
+	
+	
+}
+
+.btn1:hover{
+	color:white;
+	background-color:black;
+}
+
+
+
+.mainhsub{
+    width:1175px;
+	height:120px;
+	float:left;
+	background-color:#fff;
+	margin:auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:Black;
+	border-radius: 10px;
+	
+}
+
+#topic{
+	padding-top:0px;
+	margin:0px;
+	text-align:center;
+	font-size:45px;
+	color:#43cc68;
+}
+#subtop{
+	padding-top:0px;
+	margin:0px;
+	text-align:center;
+	color:#666;
+}
+
+
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0F6;
+  width:1325px;
+  height:px;
+  border-radius: 25px;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  width:220.8px;
+  text-decoration: none;
+  border-radius: 25px;
+  
+}
+
+
+li a:hover {
+  background-color: black;
+  color:white;
+}
+
+/* start of corsoul1*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides2 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container2{
+  max-width: 1325px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade2 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600.5px) {
+  .text {font-size: 11px}
+}
+
+
+
+.im{
+	width:1325px;
+	height:425px;
+	border-radius: 15px;
+}
+
+
+
+#contl{
+	width:1300px;
+	height:500px;
+	background-color:#000;
+	margin-top:20px;
+	margin-left:12px;
+	float:left;
+}
+
+.fdbtn{
+	border-radius:5px;
+	text-align:center;
+	margin:auto;
+	display:flex;
+	width:120px;
+	height:30px;
+	color:white;
+	background-color:#32a852;
+	border-style:none;
+	cursor:pointer;
+	
+}
+.fdbtn:hover{
+	color:white;
+	background-color:black;
+}
+
+.ownbtn{
+	border-radius:5px;
+	text-align:center;
+	margin:auto;
+	display:flex;
+	width:140px;
+	height:30px;
+	color:white;
+	background-color:#32a852;
+	border-style:none;
+	cursor:pointer;
+	
+}
+.ownbtn:hover{
+	color:white;
+	background-color:black;
+}
+
+
+#ftr{
+	width:1325px;
+	height:270px;
+	background-color:#FFF;
+	margin-top:25px;
+	margin-bottom:25px;
+	
+	
+	
+}
+
+.tb{
+	width:609px;
+	height:auto;
+	
+	 
+}
+
+.food{
+	
+	  height:300px;
+	  width:300px;
+	  border-radius: 15px;
+	  padding-top:0px;
+}
+.food1{
+	 height:430px;
+	  width:300px;
+	  border-radius: 25px;
+	  padding-top:0px;
+}
+.hot{
+	 height:300px;
+	  width:300px;
+	  border-radius: 15px;
+	  padding-top:0px;
+}
+
+#lftftr{
+	width:825px;
+	height:150px;
+	float:left;
+	background-color:#43cc68;
+	padding-top:30px;
+	padding-left:35px;
+	margin-top:25px;
+	margin-bottom:25px;
+	
+}
+#rtftr{
+	width:500px;
+	height:150px;
+	float:left;
+	background-color:#43cc68;
+	padding-top:10px;
+	margin-top:25px;
+	margin-bottom:25px;
+	
+}
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.tp{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align:left;
+	padding:0px;
+}
+
+#tbl{
+	text-align:justify;
+	color:#000;
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+}
+.sb{
+	padding-left:70px;
+}
+
+.sim{
+	height:15px;
+	width:15px;
+	border-radius:5px;
+}
+
+.srch{
+	border-radius:5px;
+}
+
+#bodytop{
+	width:1300px;
+	height:25px;
+	
+	background-color:;
+	
+}
+
+#bodytopL{
+	width:1079px;
+	height:25px;
+	float:left;
+	background-color:;
+}
+#bodytopR{
+	width:220px;
+	height:25px;
+	float:left;
+	background:;
+}
+
+/* CSS Document */
+
+/* CSS Document */
+
